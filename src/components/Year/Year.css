@@ -1,0 +1,13 @@
+.year {
+    margin: 0.5rem;
+}
+.year-label {
+    display: inline-block;
+    width: 3rem;
+    text-align: right;
+    margin-right: 0.5rem; 
+}
+.year-input {
+    display: inline-block;
+    width: 4rem;
+}

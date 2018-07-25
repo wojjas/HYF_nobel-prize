@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import medal from './medal.gif';
+import Year from './components/Year/Year';
 import './App.css';
+
 
 class App extends Component {
   render() {
@@ -12,10 +14,8 @@ class App extends Component {
         </header>
         <p className="search-criteria">
           <form>
-            <label>From: </label>
-            <input type="number" size="4" placeholder="1901"></input>
-            <label>To: </label>
-            <input type="number" size="4" placeholder={new Date(Date.now()).getFullYear()}></input>
+            <Year label="From: " placeholder="1901"/>         
+            <Year label="To: " placeholder={new Date(Date.now()).getFullYear()}/>         
             <br/>
             <label>Category: </label>
             <select>
