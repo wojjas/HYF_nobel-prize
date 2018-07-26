@@ -1,0 +1,12 @@
+/* .category {
+    //margin: 0.5rem;
+} */
+.category-label {
+    display: inline-block;
+    text-align: right;
+    margin-right: 0.5rem; 
+}
+.category-select {
+    display: inline-block;
+    width: 6rem;
+}
