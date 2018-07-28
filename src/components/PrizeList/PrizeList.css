@@ -1,0 +1,33 @@
+/* .prize-list {
+    //margin: 0.5rem;
+} */
+.prize-list-label {
+    display: inline-block;
+    margin-right: 0.5rem; 
+}
+.prize-list {
+    list-style-type: none;
+    text-align: center;
+}
+.prize{
+    text-align: left;
+    margin-top: 0.8rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(255, 220, 122, 0.38);
+}
+.prize-title{
+   font-size: 1.5rem;
+   padding-top: 0.5rem;
+   background: rgba(255, 220, 122, 0.438); 
+}
+.laureate-title{
+    font-weight: 550;
+    margin-top: 0.45rem;
+}
+.laureate-motivation{
+    font-style: italic;
+}
