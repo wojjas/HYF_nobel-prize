@@ -15,7 +15,7 @@ function Category(props) {
         <div className="category">
             <label className="category-label">{props.label}</label>
             <select className="category-select" value={props.selected} onChange={handleCategoryChange}>
-                <option value="physics">All</option>
+                <option value="">All</option>
                 <option value="physics">Physics</option>
                 <option value="chemistry">Chemistry</option>
                 <option value="medicine">Medicine</option>

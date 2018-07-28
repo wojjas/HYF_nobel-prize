@@ -8,6 +8,7 @@ import './Year.css';
  */
 function Year(props) {
     function onYearChange(e) {
+        //TODO: use props.min & props.max to filter and guide user input
         props.onYearChange(e.target.value);
     }
 
