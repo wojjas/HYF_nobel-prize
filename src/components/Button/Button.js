@@ -13,7 +13,7 @@ function Button (props) {
     }
 
     return (
-        <input className="button" type="button" onClick={handleSearchClick} value={props.text}/>
+        <input className="button" type="button" onClick={props.action} value={props.text}/>
     );
 }
 
